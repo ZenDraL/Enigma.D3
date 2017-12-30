@@ -10,14 +10,14 @@ namespace Enigma.D3.MemoryModel
     {
         private void InitX86()
         {
-            Version = new Version(2, 6, 1, 47710);
+            Version = new Version(2, 6, 1, 48432);
             Platform = Platform.X86;
 
             DataSegment.Address = 0x1E29000;
-            DataSegment.VideoPreferences = 0x1E96800;
-            DataSegment.SoundPreferences = 0x1E968A0;
-            DataSegment.HotkeyPreferences = 0x1E968F0;
-            DataSegment.GameplayPreferences = 0x1E96D70;
+            DataSegment.VideoPreferences = 0x1e96800;
+            DataSegment.SoundPreferences = 0x1e968a0;
+            DataSegment.HotkeyPreferences = 0x1e968f0;
+            DataSegment.GameplayPreferences = 0x1e96d70;
             DataSegment.SocialPreferences = 0x1e96dd8;
             DataSegment.ChatPreferences = 0x1e96e08;
             DataSegment.LevelArea = 0x207a7d0;
@@ -32,7 +32,7 @@ namespace Enigma.D3.MemoryModel
             DataSegment.AttributeDescriptors = 0x21443e0;
             DataSegment.AttributeDescriptorsCount = 0x5BB;
             DataSegment.MemoryManager = 0x1E467A8;
-            DataSegment.SNOFiles = 0x20E71E4;
+            DataSegment.SNOFiles = 0x20E71F4;
             DataSegment.SNOGroups = 0x20ebe34;
             DataSegment.SNOGroupsByCode = 0x20ebe38;
             DataSegment.ContainerManager = 0x21b6e74;
